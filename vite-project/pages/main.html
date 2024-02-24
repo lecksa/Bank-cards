@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            outline: none;
+            font-family: Gilroy;
+        }
+
+        .wrap {
+            width: 1200px;
+            margin: 5%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+            justify-content: center;
+
+            h1 {
+                font-weight: 700;
+                font-size: 48px;
+                color: black;
+            }
+
+            .inps {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            input {
+                width: 438px;
+                height: 56px;
+                border-radius: 10px;
+                border: 1px solid black;
+                font-weight: 600;
+                font-size: 16px;
+                padding: 20px;
+            }
+
+            button {
+                width: 438px;
+                height: 56px;
+                border-radius: 10px;
+                border: none;
+                background-color: #0047FF;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+                font-size: 18px;
+            }
+
+            a {
+                font-weight: 700;
+                font-size: 18px;
+                text-decoration: none;
+                color: #0047FF;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <h1>Регистрация</h1>
+        <div class="inps">
+            <input type="text" name="" id="" placeholder="Почта">
+            <input type="text" name="" id="" placeholder="Имя">
+            <input type="text" name="" id="" placeholder="Фамилия">
+            <input type="text" name="" id="" placeholder="Пароль">
+            <button>Продолжить</button>
+        </div>
+        <a href="./index.html">Войти в аккаунт</a>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
