@@ -10,7 +10,10 @@ let user = {
 }
 
 email_inp.value = storage.email
-password_inp.value = storage.password
+
+if(storage.password !== password_inp.value){
+  alert("Wrong!")
+}  
 
 btn.onclick = () => {
   JSON.stringify(localStorage.setItem("user", user))
